@@ -1,0 +1,41 @@
+:root{
+  --bg:#0f1724;
+  --card:#111827;
+  --muted:#9ca3af;
+  --accent:#1f7a8c;
+  --accent-2:#ef4444;
+  --glass: rgba(255,255,255,0.03);
+  --radius:14px;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  background:linear-gradient(180deg,var(--bg),#071022);
+  color:#e6eef6;
+  font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+  direction:rtl;
+  -webkit-font-smoothing:antialiased;
+  padding:24px;
+}
+header{display:flex;align-items:center;gap:16px;justify-content:space-between;margin-bottom:24px}
+.logo{display:flex;gap:12px;align-items:center}
+.logo .mark{width:52px;height:52px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#0ea5a3);display:flex;align-items:center;justify-content:center;font-weight:700}
+nav{display:flex;gap:12px;align-items:center}
+a.btn{background:var(--glass);padding:10px 14px;border-radius:10px;text-decoration:none;color:var(--muted);font-weight:600}
+.search{flex:1;margin:0 16px;display:flex}
+.search input{flex:1;padding:12px;border-radius:10px;border:0;background:#071327;color:inherit}
+.container{display:grid;grid-template-columns:320px 1fr;gap:20px}
+.sidebar{background:var(--card);padding:18px;border-radius:var(--radius);min-height:300px}
+.card{background:var(--card);padding:16px;border-radius:12px;margin-bottom:16px}
+.products-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+.product{background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);padding:12px;border-radius:12px;display:flex;flex-direction:column;gap:8px;min-height:220px}
+.product img{width:100%;height:140px;object-fit:cover;border-radius:8px;background:#0b1220}
+.muted{color:var(--muted);font-size:13px}
+.price{font-weight:800}
+.qbtn{background:linear-gradient(90deg,var(--accent) 0%, #0ea5a3 100%);border:none;padding:10px;border-radius:10px;color:#00111a;cursor:pointer;font-weight:700}
+footer{margin-top:30px;color:var(--muted);font-size:13px;text-align:center}
+@media (max-width:900px){
+  .container{grid-template-columns:1fr; padding-bottom:80px}
+  header{flex-wrap:wrap;gap:8px}
+}

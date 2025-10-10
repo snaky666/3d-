@@ -1,0 +1,41 @@
+[
+  {
+    "id": "p001",
+    "name_ar": "فلتر زيت أصلي - تويوتا",
+    "name_fr": "Filtre à huile - Toyota",
+    "brand": "Toyota",
+    "category": "فلتر",
+    "price_dzd": 4500,
+    "stock": 12,
+    "image": "assets/images/placeholder.svg",
+    "code": "TK-OL-001",
+    "description_ar": "فلتر زيت عالي الجودة متوافق مع موديلات تويوتا الحديثة.",
+    "description_fr": "Filtre à huile de haute qualité compatible avec les modèles Toyota récents."
+  },
+  {
+    "id": "p002",
+    "name_ar": "وسادة فرامل أمامية - هوندا",
+    "name_fr": "Plaquette de frein avant - Honda",
+    "brand": "Honda",
+    "category": "فرامل",
+    "price_dzd": 7200,
+    "stock": 5,
+    "image": "assets/images/placeholder.svg",
+    "code": "HD-BR-010",
+    "description_ar": "وسادة فرامل بطانة سيراميك لأداء ثابت وممتاز.",
+    "description_fr": "Plaquette de frein en céramique pour une performance stable et excellente."
+  },
+  {
+    "id": "p003",
+    "name_ar": "بطارية 12V - سعة 60Ah",
+    "name_fr": "Batterie 12V - 60Ah",
+    "brand": "Generic",
+    "category": "بطاريات",
+    "price_dzd": 18500,
+    "stock": 8,
+    "image": "assets/images/placeholder.svg",
+    "code": "BT-12-60",
+    "description_ar": "بطارية قوية مع ضمان سنة، مناسبة لمعظم السيارات الصغيرة.",
+    "description_fr": "Batterie fiable avec 1 an de garantie, adaptée aux petites voitures."
+  }
+]

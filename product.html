@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>تفاصيل المنتج - AutoDZ Parts</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <header style="display:flex;align-items:center;gap:12px;justify-content:space-between;padding-bottom:12px">
+    <div class="logo"><div class="mark">AD</div><div><div style="font-weight:800">AutoDZ Parts</div></div></div>
+    <nav>
+      <a class="btn" href="/index.html">الرئيسية</a>
+      <a class="btn" href="/contact.html">اتصل بنا</a>
+    </nav>
+  </header>
+
+  <main style="max-width:1000px;margin:0 auto">
+    <div class="card" style="display:flex;gap:20px;align-items:flex-start;flex-wrap:wrap">
+      <img id="pImage" src="/assets/images/placeholder.svg" alt="" style="width:420px;border-radius:12px"/>
+      <div style="flex:1">
+        <h1 id="pName">اسم المنتج</h1>
+        <div id="pPrice" class="price"></div>
+        <p id="pDesc" class="muted"></p>
+        <div style="display:flex;gap:10px;margin-top:20px">
+          <button id="orderBtn" class="qbtn">اطلب عبر واتساب</button>
+          <button onclick="addToCart(location.search.split('id=')[1])" class="btn">أضف للسلة</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
